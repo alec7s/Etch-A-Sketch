@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grid-container {
+    margin-top: 35px;
+    max-width: 400px;
+    border: 0.01px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    background-color: white;
+}
+
+.red-cell {
+    background-color: darkred;
+}
+
